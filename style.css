@@ -74,11 +74,13 @@ nav ul li a{
     color:#403e3e;
     font-size:30px;
     line-height:30px;
+    
 }
 
 .text-container p{
     line-height:0px;
     margin: 45px 0px 25px;
+    padding-left: 50px;
 }
 
 .text-container {
@@ -86,16 +88,6 @@ nav ul li a{
     left:13%;
     top:42%;
     transform: translate(-13%,-42%);
-}
-.text-container button{
-    width:130px;
-    height:42px;
-    border-radius:10px;
-    font-family:calibri;
-    font-weight:bold;
-    font-size:14px;
-    outline:none;
-    margin:0px 10px;
 }
 
 .down-cv{
