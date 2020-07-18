@@ -55,7 +55,6 @@ nav ul li a{
 }
 
 .text-container{
-    padding-left: 50px;
     font-family:calibri;
     font-weight:bold;
     color:#6d6d6d;
@@ -80,6 +79,7 @@ nav ul li a{
 .text-container p{
     line-height:0px;
     margin: 45px 0px 25px;
+    padding-left: 50px;
 }
 
 .text-container {
