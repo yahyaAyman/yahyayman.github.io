@@ -59,11 +59,12 @@ nav ul li a{
 }
 
 .text-container{
+    padding-top: 60px;
     font-family:calibri;
     font-weight:bold;
     color:#6d6d6d;
     font-size:22px;
-    padding: 50px;
+    padding-bottom: 60px;
 }
 
 .text-container p:nth-child(2){
