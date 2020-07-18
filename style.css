@@ -19,7 +19,9 @@ section{
     background-size:cover;
     position: relative;
 }
-
+div{
+    word-wrap: normal
+}
 nav{
     display:flex;
     justify-content: space-between;
