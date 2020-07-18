@@ -23,6 +23,7 @@ div{
     word-wrap: normal;
     padding-bottom: 50px;
     padding-top: 50px;
+    line-height: 80%;
 }
 nav{
     display:flex;
