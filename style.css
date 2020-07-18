@@ -21,9 +21,6 @@ section{
 }
 div{
     word-wrap: normal;
-    padding-bottom: 50px;
-    padding-top: 50px;
-    line-height: 80%;
 }
 nav{
     display:flex;
@@ -61,12 +58,11 @@ nav ul li a{
 }
 
 .text-container{
-    padding-top: 80%;
     font-family:calibri;
     font-weight:bold;
     color:#6d6d6d;
-/*     font-size:22px;
-    padding-bottom: 60px; */
+    font-size:22px;
+
 }
 
 .text-container p:nth-child(2){
