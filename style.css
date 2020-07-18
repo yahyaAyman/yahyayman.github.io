@@ -62,7 +62,7 @@ nav ul li a{
     font-weight:bold;
     color:#6d6d6d;
     font-size:22px;
-    padding-left: 50px;
+    padding: 50px;
 }
 
 .text-container p:nth-child(2){
@@ -124,7 +124,7 @@ button:active{
     height:230px;
     background-color: #FFFFFF;
     border-radius:20px;
-    padding-left: 50px;
+    padding: 50px;
     box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
     display:flex;
     margin: -7% auto 20px auto;
@@ -153,7 +153,6 @@ button:active{
     color:#7e7d7d;
     font-family:calibri;
     font-size:16px;
-    padding-left: 50px;
 }
 
 .footer{
