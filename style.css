@@ -19,9 +19,7 @@ section{
     background-size:cover;
     position: relative;
 }
-div{
-    word-wrap: normal;
-}
+
 nav{
     display:flex;
     justify-content: space-between;
@@ -43,7 +41,6 @@ nav ul li a{
     color: #505050;
     font-size:15px;
     font-weight: 700;
-    display:flex;
 }
 
 .logo{
@@ -62,7 +59,6 @@ nav ul li a{
     font-weight:bold;
     color:#6d6d6d;
     font-size:22px;
-
 }
 
 .text-container p:nth-child(2){
@@ -82,7 +78,7 @@ nav ul li a{
 
 .text-container p{
     line-height:0px;
-    margin: 25px 45px 0px 25px;
+    margin: 45px 0px 25px;
 }
 
 .text-container {
@@ -124,7 +120,6 @@ button:active{
     height:230px;
     background-color: #FFFFFF;
     border-radius:20px;
-    padding: 50px;
     box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
     display:flex;
     margin: -7% auto 20px auto;
@@ -146,7 +141,6 @@ button:active{
     font-family:myriad pro;
     font-weight: bold;
     line-height:5px;
-    padding-left: 50px;
 }
 .about text p:nth-child(3),
 .about text p:nth-child(4){
@@ -239,52 +233,3 @@ button:active{
     border:1px solid #cbcbcb;
     box-shadow:2px 2px 12px rgba(0,0,0,0.2);
 }
-
-/*@media(max-width:1000px){*/
-/*    *{*/
-/*        box-sizing: border-box;*/
-/*    }*/
-/*    .model{*/
-/*        height:460px;*/
-/*        left:90%;*/
-/*        transform:translateX(-90%);*/
-/*    }*/
-/*    .toggle{*/
-/*        display:block;*/
-/*    }*/
-/*    .about-container{*/
-/*        width:90%;*/
-/*        border-radius: 10px;*/
-
-/*    }*/
-
-/*    nav ul{*/
-/*        margin: 0px;*/
-/*        padding: 0px;*/
-/*        background-color: #ebeef4;*/
-/*        flex-direction:column;*/
-/*        position: fixed;*/
-/*        left:0;*/
-/*        top:0;*/
-/*        width: 100%;*/
-/*        height:100vh;*/
-/*        box-sizing: border-box;*/
-/*        display:flex;*/
-/*        justify-content:center;*/
-/*        align-items: center;*/
-/*        z-index:1;*/
-/*    }*/
-/*    nav ul li{*/
-/*        padding:10px;*/
-/*    }*/
-/*    nav ul li a{*/
-/*        font-family:calibri;*/
-/*        font-size: 1.4em;*/
-/*        text-transform: uppercase;*/
-/*        color:#5c5c5c;*/
-/*    }*/
-/*    nav ul li a:hover{*/
-/*        color:#242424;*/
-/*    }*/
-
-/*}*/
