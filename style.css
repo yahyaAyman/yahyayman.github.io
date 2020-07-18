@@ -20,7 +20,8 @@ section{
     position: relative;
 }
 div{
-    word-wrap: normal
+    word-wrap: normal;
+    padding-bottom: 50px;
 }
 nav{
     display:flex;
