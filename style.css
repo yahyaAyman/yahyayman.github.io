@@ -126,6 +126,7 @@ button:active{
     font-weight:bold;
     font-size:23px;
     line-height:0px;
+    padding-left: 50px;
 }
 
 .about-text p:nth-child(2){
@@ -134,12 +135,14 @@ button:active{
     font-family:myriad pro;
     font-weight: bold;
     line-height:5px;
+    padding-left: 50px;
 }
 .about text p:nth-child(3),
 .about text p:nth-child(4){
     color:#7e7d7d;
     font-family:calibri;
     font-size:16px;
+    padding-left: 50px;
 }
 
 .footer{
