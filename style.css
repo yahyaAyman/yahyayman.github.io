@@ -188,10 +188,10 @@ button:active{
 }
 
 .social-icons{
-/*     bottom: 10px; */
+    bottom: 0;
     display:flex;
     justify-content: center;
-    height:100px;
+    position:absolute;
 }
 
 .copyright{
