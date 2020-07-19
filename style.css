@@ -156,6 +156,7 @@ button:active{
     justify-content: center;
     align-items: center;
     position: relative;
+    bottom: 10px;
 }
 
 .footer p{
