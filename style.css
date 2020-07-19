@@ -188,9 +188,10 @@ button:active{
 }
 
 .social-icons{
-    bottom: 10px;
+/*     bottom: 10px; */
     display:flex;
     justify-content: center;
+    height:100px;
 }
 
 .copyright{
@@ -199,7 +200,7 @@ button:active{
     position: absolute;
     left:50%;
     transform:translateX(-50%);
-    bottom: 5px;
+/*     bottom: 5px; */
 }
 
 .social-icons i{
