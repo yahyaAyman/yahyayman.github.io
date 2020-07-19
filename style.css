@@ -5,6 +5,9 @@ body{
     margin:0px;
     padding:0px;
 }
+p{
+    font-weight: normal;
+}
 ul{
     list-style:none;
 }s
