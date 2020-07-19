@@ -5,9 +5,6 @@ body{
     margin:0px;
     padding:0px;
 }
-p{
-    font-weight: normal;
-}
 ul{
     list-style:none;
 }s
@@ -58,7 +55,6 @@ nav ul li a{
 }
 
 .text-container{
-    height:35px;
     font-family:calibri;
     font-weight:bold;
     color:#6d6d6d;
@@ -78,13 +74,11 @@ nav ul li a{
     color:#403e3e;
     font-size:30px;
     line-height:30px;
-    
 }
 
 .text-container p{
     line-height:0px;
     margin: 45px 0px 25px;
-    padding-left: 50px;
 }
 
 .text-container {
@@ -92,6 +86,16 @@ nav ul li a{
     left:13%;
     top:42%;
     transform: translate(-13%,-42%);
+}
+.text-container button{
+    width:130px;
+    height:42px;
+    border-radius:10px;
+    font-family:calibri;
+    font-weight:bold;
+    font-size:14px;
+    outline:none;
+    margin:0px 10px;
 }
 
 .down-cv{
@@ -121,7 +125,6 @@ button:active{
     margin: -7% auto 20px auto;
     position:relative;
     align-items: center;
-    padding-left: 50px;
 }
 
 .about-text p:nth-child(1){
@@ -130,7 +133,6 @@ button:active{
     font-weight:bold;
     font-size:23px;
     line-height:0px;
-    padding-left: 50px;
 }
 
 .about-text p:nth-child(2){
@@ -139,14 +141,12 @@ button:active{
     font-family:myriad pro;
     font-weight: bold;
     line-height:5px;
-    padding-left: 50px;
 }
 .about text p:nth-child(3),
 .about text p:nth-child(4){
     color:#7e7d7d;
     font-family:calibri;
     font-size:16px;
-    padding-left: 50px;
 }
 
 .footer{
@@ -156,7 +156,6 @@ button:active{
     justify-content: center;
     align-items: center;
     position: relative;
-    bottom: 10px;
 }
 
 .footer p{
@@ -188,12 +187,8 @@ button:active{
 }
 
 .social-icons{
-/*     bottom: 50%; */
-    left:50%;
-    margin-top:50%;
     display:flex;
     justify-content: center;
-    position:relative;
 }
 
 .copyright{
@@ -202,7 +197,6 @@ button:active{
     position: absolute;
     left:50%;
     transform:translateX(-50%);
-/*     bottom: 5px; */
 }
 
 .social-icons i{
