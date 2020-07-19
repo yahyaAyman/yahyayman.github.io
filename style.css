@@ -199,6 +199,7 @@ button:active{
 .social-icons{
     display:flex;
     justify-content: center;
+    position:absolute;
 }
 
 .copyright{
