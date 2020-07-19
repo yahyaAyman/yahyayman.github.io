@@ -198,6 +198,7 @@ button:active{
     position: absolute;
     left:50%;
     transform:translateX(-50%);
+    bottom: 5px;
 }
 
 .social-icons i{
