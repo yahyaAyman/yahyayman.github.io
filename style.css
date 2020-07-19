@@ -188,7 +188,7 @@ button:active{
 }
 
 .social-icons{
-    bottom: 0;
+    bottom: 50%;
     display:flex;
     justify-content: center;
     position:absolute;
