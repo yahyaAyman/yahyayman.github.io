@@ -187,6 +187,7 @@ button:active{
 }
 
 .social-icons{
+    bottom: 10px;
     display:flex;
     justify-content: center;
 }
