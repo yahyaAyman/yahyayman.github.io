@@ -213,7 +213,7 @@ button:active{
     background-color:#FFFFFF;
     transition: all ease 0.5s;
 }
-social{
+.social{
     position: absolute;
     bottom: 10px;
 }
