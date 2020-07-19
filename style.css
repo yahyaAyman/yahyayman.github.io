@@ -204,6 +204,7 @@ button:active{
     position: absolute;
     left:50%;
     transform:translateX(-50%);
+    bottom:auto;
 }
 
 .social-icons i{
@@ -220,8 +221,7 @@ button:active{
     transition: all ease 0.5s;
 }
 .social{
-    position: absolute;
-    bottom: 10px;
+    bottom:auto;
 }
 .a-social-b{
     position: fixed;
