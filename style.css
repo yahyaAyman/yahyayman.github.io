@@ -5,9 +5,6 @@ body{
     margin:0px;
     padding:0px;
 }
-p{
-    padding: 45px;
-}
 ul{
     list-style:none;
 }s
@@ -129,6 +126,7 @@ button:active{
     position:relative;
     align-items: center;
     padding-left: 40px;
+
 }
 
 .about-text p:nth-child(1){
@@ -199,7 +197,6 @@ button:active{
 .social-icons{
     display:flex;
     justify-content: center;
-    position:absolute;
 }
 
 .copyright{
@@ -208,7 +205,6 @@ button:active{
     position: absolute;
     left:50%;
     transform:translateX(-50%);
-    bottom:auto;
 }
 
 .social-icons i{
@@ -224,11 +220,7 @@ button:active{
     background-color:#FFFFFF;
     transition: all ease 0.5s;
 }
-.social{
-    bottom:auto;
-    position: relative;
-    left:50%;
-}
+
 .a-social-b{
     position: fixed;
     top:50%;
