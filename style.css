@@ -226,7 +226,7 @@ button:active{
 }
 .social{
     bottom:auto;
-    position: absolute;
+    position: relative;
     left:50%;
 }
 .a-social-b{
