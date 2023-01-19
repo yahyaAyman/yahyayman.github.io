@@ -1,75 +1,55 @@
 <!DOCTYPE html>
-
 <html>
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE-edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Yahya Ayman Portofolio</title>
-    <link rel="stylesheet" type="text/css" href="style.css"/>
-    <script src="https://kit.fontawesome.com/c8e4d183c2.js"
-    crossorigin="anonymous"></script>
-    <script data-ad-client="ca-pub-6844298160918660" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-  </head>
-  <body>
-    <section>
-      <!--navigation------------>
-      <nav>
-        <!--logo-->
-        <a href="#" class= "logo"> Portofolio</a>
-        <!--menu-->
-        <ul>
-          <li><a href= "index.html"class="active">Home</a></li>
-          <li><a href= "projects.html">Projects</a></li>
-          <li><a href= "contact.html">Contact Me</a></li>
-        </ul>
-        <!----bars-------->
-        <div class="toggle"></div>
-      </nav>
-    <!--text----------->
-      <div class="text-container">
-        
-        <p>Welcome to my Portfolio</p>
-        <p><a href="contact.html">Visit me</a> to get in touch!</p>
-        <p>Computer Science<br> Math & GIS student at University of Toronto!</p>
-
-        <a href="Resume.pdf" download>
-          <button class="down-cv">Download Resume</button>
-        </a>
-
-      </div>
-    <!--model-->
-      <img src="me.png" class="model" alt="model" style="height:350px">
+<head>
+  <title>My Interactive Website</title>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#blog">Blog</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section id="about">
+      <h1>About Me</h1>
+      <p>Here's a brief summary of my skills and experience.</p>
     </section>
-    <!-----about section--------->
-    <div class="about-container">
-        <p> About Me<br>HI, IT'S ME!<br>I like building softwares. I've built websites, chat servers and even games! If you are interested, you can view some of my favorite projects in my portfolio.
-          Need something built or simply want to have a chat <a href="contact.html">contact me</a>!<br>
-        Technical skills:<br>
-        ● SQL<br>
-        ● HTML/CSS<br>
-        ● PYTHON<br>
-        ● C<br>
-        ● Java<br>
-        ● Javascript<br>
-      </p>
-    </div>
-    <!------footer------>
-    <footer>
-      <!------social---->
-      <div class="social-icons">
-        <a href="https://linkedin.com/in/yahyasalamah"><i class="fa fa-linkedin-square"></i></a>
-        <a href="https://github.com/yahyaAyman"><i class="fa fa-github"></i></a>
-        <a href="https://medium.com/@yahyaayman"><i class="fa fa-medium"></i></a>
-
-      </div>
-      <p class="copyright">© Copyright by Yahya Ayman</p>
-    </footer>
-    <!------attached social bar----->
-        <div class="a-social-b">
-            <a href="https://linkedin.com/in/yahyasalamah"><i class="fa fa-linkedin-square"></i></a>
-            <a href="https://github.com/yahyaAyman"><i class="fa fa-github"></i></a>
-            <a href="https://medium.com/@yahyaayman"><i class="fa fa-medium"></i></a>
-        </div>
-  </body>
+    <section id="portfolio">
+      <h1>My Portfolio</h1>
+      <ul>
+        <li>Project 1</li>
+        <li>Project 2</li>
+        <li>Project 3</li>
+      </ul>
+    </section>
+    <section id="blog">
+      <h1>My Blog</h1>
+      <ul>
+        <li>Blog Post 1</li>
+        <li>Blog Post 2</li>
+        <li>Blog Post 3</li>
+      </ul>
+    </section>
+    <section id="contact">
+      <h1>Contact Me</h1>
+      <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email">
+        <label for="message">Message:</label>
+        <textarea id="message" name="message"></textarea>
+        <input type="submit" value="Send">
+      </form>
+    </section>
+  </main>
+  <footer>
+    <p>Copyright ©2022 My Interactive Website</p>
+  </footer>
+</body>
 </html>
