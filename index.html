@@ -1,57 +1,99 @@
-import React from 'react';
-import './App.css';
+import React from "react";
+import { Link } from "react-router-dom";
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Software Developer Portfolio</h1>
+        <h1>My Professional Portfolio</h1>
       </header>
-      <section className="about-me">
-        <h2>About Me</h2>
-        <p>I am a software developer with 5 years of experience in building web applications. I specialize in JavaScript, React and Node.js.</p>
+      <nav>
+        <Link to="/about">About</Link>
+        <Link to="/experience">Experience</Link>
+        <Link to="/projects">Projects</Link>
+        <Link to="/contact">Contact</Link>
+      </nav>
+      <section className="content">
+        <Route path="/about" component={About} />
+        <Route path="/experience" component={Experience} />
+        <Route path="/projects" component={Projects} />
+        <Route path="/contact" component={Contact} />
       </section>
-      <section className="experience">
-        <h2>Experience</h2>
-        <ul>
-          <li>Software Engineer at XYZ Company (2018-2020)</li>
-          <li>Full Stack Developer at ABC Agency (2016-2018)</li>
-        </ul>
-      </section>
-      <section className="projects">
-        <h2>Projects</h2>
-        <ul>
-          <li>
-            <h3>Project 1</h3>
-            <p>A brief description of the project, technologies used, and a live demo or code repository link.</p>
-          </li>
-          <li>
-            <h3>Project 2</h3>
-            <p>A brief description of the project, technologies used, and a live demo or code repository link.</p>
-          </li>
-        </ul>
-      </section>
-      <section className="contact">
-        <h2>Contact</h2>
-        <form>
-          <label>
-            Name:
-            <input type="text" name="name" />
-          </label>
-          <br />
-          <label>
-            Email:
-            <input type="email" name="email" />
-          </label>
-          <br />
-          <label>
-            Message:
-            <textarea name="message"></textarea>
-          </label>
-          <br />
-          <button type="submit">Send</button>
-        </form>
-      </section>
+    </div>
+  );
+}
+
+function About() {
+  return (
+    <div>
+      <h2>About Me</h2>
+      <p>
+        I am a software developer with 5 years of experience in building web
+        applications. I specialize in JavaScript, React, and Node.js.
+      </p>
+    </div>
+  );
+}
+
+function Experience() {
+  return (
+    <div>
+      <h2>Experience</h2>
+      <ul>
+        <li>Software Engineer at XYZ Company (2018-2020)</li>
+        <li>Full Stack Developer at ABC Agency (2016-2018)</li>
+      </ul>
+    </div>
+  );
+}
+
+function Projects() {
+  return (
+    <div>
+      <h2>Projects</h2>
+      <ul>
+        <li>
+          <h3>Project 1</h3>
+          <p>
+            A brief description of the project, technologies used, and a live
+            demo or code repository link.
+          </p>
+        </li>
+        <li>
+          <h3>Project 2</h3>
+          <p>
+            A brief description of the project, technologies used, and a live
+            demo or code repository link.
+          </p>
+        </li>
+      </ul>
+    </div>
+  );
+}
+
+function Contact() {
+  return (
+    <div>
+      <h2>Contact</h2>
+      <form>
+        <label>
+          Name:
+          <input type="text" name="name" required />
+        </label>
+        <br />
+        <label>
+          Email:
+          <input type="email" name="email" required />
+        </label>
+        <br />
+        <label>
+          Message:
+          <textarea name="message" required></textarea>
+        </label>
+        <br />
+        <button type="submit">Send</button>
+      </form>
     </div>
   );
 }
