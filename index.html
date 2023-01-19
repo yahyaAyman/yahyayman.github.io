@@ -1,37 +1,59 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-    <script>
-      $(document).ready(function() {
-        $('.portfolio-item').click(function() {
-          $('.portfolio-item').removeClass('active');
-          $(this).addClass('active');
-          var id = $(this).attr('id');
-          $('.portfolio-detail').hide();
-          $('#detail-' + id).show();
-        });
-      });
-    </script>
-  </head>
-  <body>
-    <div class="container">
-      <div class="row">
-        <div class="col-md-3">
-          <h3>Portfolio</h3>
-          <ul class="nav nav-pills flex-column">
-            <li class="nav-item portfolio-item" id="item-1">
-              <a class="nav-link" href="#">Item 1</a>
-            </li>
-            <li class="nav-item portfolio-item" id="item-2">
-              <a class="nav-link" href="#">Item 2</a>
-            </li>
-            <li class="nav-item portfolio-item" id="item-3">
-              <a class="nav-link" href="#">Item 3</a>
-            </li>
-          </ul>
-        </div>
-        <div
+import React from 'react';
+import './App.css';
+
+function App() {
+  return (
+    <div className="App">
+      <header className="App-header">
+        <h1>Software Developer Portfolio</h1>
+      </header>
+      <section className="about-me">
+        <h2>About Me</h2>
+        <p>I am a software developer with 5 years of experience in building web applications. I specialize in JavaScript, React and Node.js.</p>
+      </section>
+      <section className="experience">
+        <h2>Experience</h2>
+        <ul>
+          <li>Software Engineer at XYZ Company (2018-2020)</li>
+          <li>Full Stack Developer at ABC Agency (2016-2018)</li>
+        </ul>
+      </section>
+      <section className="projects">
+        <h2>Projects</h2>
+        <ul>
+          <li>
+            <h3>Project 1</h3>
+            <p>A brief description of the project, technologies used, and a live demo or code repository link.</p>
+          </li>
+          <li>
+            <h3>Project 2</h3>
+            <p>A brief description of the project, technologies used, and a live demo or code repository link.</p>
+          </li>
+        </ul>
+      </section>
+      <section className="contact">
+        <h2>Contact</h2>
+        <form>
+          <label>
+            Name:
+            <input type="text" name="name" />
+          </label>
+          <br />
+          <label>
+            Email:
+            <input type="email" name="email" />
+          </label>
+          <br />
+          <label>
+            Message:
+            <textarea name="message"></textarea>
+          </label>
+          <br />
+          <button type="submit">Send</button>
+        </form>
+      </section>
+    </div>
+  );
+}
+
+export default App;
